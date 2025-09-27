@@ -1,0 +1,15 @@
+﻿server:
+  port: 8082
+
+external:
+  api:
+    base-url: "https://jsonplaceholder.typicode.com"
+
+spring:
+  cache:
+    type: caffeine
+
+logging:
+  level:
+    root: INFO
+    com.example.pruebajava: DEBUG
