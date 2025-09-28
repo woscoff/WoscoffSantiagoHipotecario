@@ -1,0 +1,15 @@
+server:
+  port: 0  # Random port for tests
+
+external:
+  api:
+    base-url: "https://jsonplaceholder.typicode.com"
+
+spring:
+  cache:
+    type: simple  # Use simple cache for tests
+  
+logging:
+  level:
+    root: WARN
+    com.example.pruebajava: DEBUG
